@@ -20,6 +20,7 @@
     grid-column: 2 / 6;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
   }
+
   &__img--2 {
     width: 115%;
     grid-row: 4 / 6;
@@ -34,12 +35,14 @@
     padding: 4rem 8vw;
 
     // Using Flex-Box
+
     // display: flex;
     // flex-direction: column;
     // justify-content: center;
     // align-items: flex-start;
 
     //Using Grid
+
     display: grid;
     align-content: center;
     justify-items: start;
